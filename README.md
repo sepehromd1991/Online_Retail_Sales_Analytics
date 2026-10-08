@@ -1,56 +1,70 @@
-Online Retail Sales Analytics
+Online Retail Sales Analytics Dashboard
 
-A real-world sales analytics project built with Python and Pandas using the UCI Online Retail II dataset.
+A professional sales analytics dashboard built with Python, Tkinter, Pandas, and Matplotlib for analyzing Online Retail sales data.
 
-Project Overview
+Features
 
-This project analyzes online retail transactions to identify sales performance, customer behavior, product performance, geographic trends, and cancellations.
-
-Key Analysis
-
-- Monthly sales and order trends
-- Top products by revenue
-- Country-level sales performance
-- Customer purchase analysis
-- RFM customer segmentation
-- Cancellation analysis
-- Key business KPIs
+- Upload Excel sales data
+- Filter sales by country
+- Filter sales by start and end date
+- Calculate key sales KPIs:
+  - Total Revenue
+  - Total Orders
+  - Total Customers
+  - Total Quantity
+  - Average Order Value
+- Monthly Revenue analysis
+- Top 10 Products analysis
+- Top 10 Countries analysis
+- Interactive charts
+- Export filtered data and analysis to Excel
+- Professional Excel report containing:
+  - Summary
+  - Monthly Revenue
+  - Top Products
+  - Filtered Data
 
 Technologies
 
 - Python
+- Tkinter
 - Pandas
 - Matplotlib
 - OpenPyXL
-- Excel
-
-Outputs
-
-- Excel analytical report
-- Sales dashboard
-- Revenue and product charts
-- Country performance analysis
-- Customer and RFM analysis
-- Cancellation analysis
 
 Project Structure
 
-Online-Retail-Sales-Analytics/
+online_retail_sales_analytics/
 │
-├── Analysis.py
-├── online_retail_II.xlsx
-├── online_retail_analysis.xlsx
-├── online_retail_dashboard.png
-├── monthly_revenue.png
-├── top_products.png
-└── top_countries.png
+├── main.py
+├── analyze.py
+├── README.md
+├── dashboard.png
+├── monthly revenue.png
+├── top product.png
+├── top countries.png
+└── Online Retail.xlsx
 
-Dataset
+How to Run
 
-UCI Online Retail II
+Install the required libraries:
 
-The dataset contains real online retail transaction records from 2009–2010.
+pip install pandas matplotlib openpyxl
+
+Then run:
+
+python main.py
+
+Dashboard
+
+The dashboard provides an interactive interface for exploring sales performance and generating filtered Excel reports.
+
+Data
+
+The project uses the Online Retail dataset for sales analysis.
 
 Author
 
 Sepehr Omidi
+
+Python Developer
